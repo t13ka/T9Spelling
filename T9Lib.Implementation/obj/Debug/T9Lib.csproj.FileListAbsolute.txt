@@ -1,0 +1,16 @@
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib\bin\Debug\T9Lib.dll
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib\bin\Debug\T9Lib.pdb
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib\bin\Debug\T9Common.dll
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib\bin\Debug\T9Common.pdb
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib\obj\Debug\T9Lib.csprojResolveAssemblyReference.cache
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib\obj\Debug\T9Lib.csproj.CoreCompileInputs.cache
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib\obj\Debug\T9Lib.dll
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib\obj\Debug\T9Lib.pdb
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Implementation\bin\Debug\T9Lib.dll
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Implementation\bin\Debug\T9Lib.pdb
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Implementation\bin\Debug\T9Common.dll
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Implementation\bin\Debug\T9Common.pdb
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Implementation\obj\Debug\T9Lib.csprojResolveAssemblyReference.cache
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Implementation\obj\Debug\T9Lib.csproj.CoreCompileInputs.cache
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Implementation\obj\Debug\T9Lib.dll
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Implementation\obj\Debug\T9Lib.pdb

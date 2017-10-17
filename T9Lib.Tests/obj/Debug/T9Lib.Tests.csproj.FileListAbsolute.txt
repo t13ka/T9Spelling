@@ -1,0 +1,42 @@
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\bin\Debug\Samples\C-large-practice.in
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\bin\Debug\Samples\C-small-practice_wrong_lines_count.in
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\bin\Debug\Samples\C-small-practice.in
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\bin\Debug\T9Lib.Tests.dll
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\bin\Debug\T9Lib.Tests.pdb
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\bin\Debug\T9Common.dll
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\bin\Debug\T9Lib.dll
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\bin\Debug\T9Common.pdb
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\bin\Debug\T9Lib.pdb
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\obj\Debug\T9Lib.Tests.csprojResolveAssemblyReference.cache
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\obj\Debug\T9Lib.Tests.csproj.CoreCompileInputs.cache
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\obj\Debug\T9Lib.Tests.dll
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\obj\Debug\T9Lib.Tests.pdb
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Lib.Tests\bin\Debug\Samples\C-small-practice_empty.in
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\bin\Debug\Samples\C-large-practice.in
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\bin\Debug\Samples\C-small-practice_empty.in
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\bin\Debug\Samples\C-small-practice_wrong_lines_count.in
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\bin\Debug\Samples\C-small-practice.in
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\bin\Debug\T9Lib.Tests.dll
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\bin\Debug\T9Lib.Tests.pdb
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\bin\Debug\T9Common.dll
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\bin\Debug\T9Lib.dll
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\bin\Debug\T9Common.pdb
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\bin\Debug\T9Lib.pdb
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\obj\Debug\T9Lib.Tests.csprojResolveAssemblyReference.cache
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\obj\Debug\T9Lib.Tests.csproj.CoreCompileInputs.cache
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\obj\Debug\T9Lib.Tests.dll
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Tests\obj\Debug\T9Lib.Tests.pdb

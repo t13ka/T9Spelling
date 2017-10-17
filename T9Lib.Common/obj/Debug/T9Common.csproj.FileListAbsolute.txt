@@ -1,0 +1,6 @@
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Common\bin\Debug\T9Common.dll
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Common\bin\Debug\T9Common.pdb
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Common\obj\Debug\T9Common.csprojResolveAssemblyReference.cache
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Common\obj\Debug\T9Common.csproj.CoreCompileInputs.cache
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Common\obj\Debug\T9Common.dll
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\T9Common\obj\Debug\T9Common.pdb

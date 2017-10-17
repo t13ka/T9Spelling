@@ -1,0 +1,5 @@
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Common\bin\Debug\T9Common.dll
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Common\bin\Debug\T9Common.pdb
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Common\obj\Debug\T9LIb.Common.csproj.CoreCompileInputs.cache
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Common\obj\Debug\T9Common.dll
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Common\obj\Debug\T9Common.pdb

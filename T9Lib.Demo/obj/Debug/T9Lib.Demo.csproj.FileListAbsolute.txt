@@ -1,0 +1,26 @@
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\ConsoleApp5\bin\Debug\C-large-practice.in
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\ConsoleApp5\bin\Debug\C-small-practice.in
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\ConsoleApp5\bin\Debug\T9Lib.Demo.exe.config
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\ConsoleApp5\bin\Debug\T9Lib.Demo.exe
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\ConsoleApp5\bin\Debug\T9Lib.Demo.pdb
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\ConsoleApp5\bin\Debug\T9Common.dll
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\ConsoleApp5\bin\Debug\T9Lib.dll
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\ConsoleApp5\bin\Debug\T9Common.pdb
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\ConsoleApp5\bin\Debug\T9Lib.pdb
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\ConsoleApp5\obj\Debug\T9Lib.Demo.csprojResolveAssemblyReference.cache
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\ConsoleApp5\obj\Debug\T9Lib.Demo.csproj.CoreCompileInputs.cache
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\ConsoleApp5\obj\Debug\T9Lib.Demo.exe
+C:\Users\DNS\Documents\Visual Studio 2017\Projects\ConsoleApp5\ConsoleApp5\obj\Debug\T9Lib.Demo.pdb
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Demo\bin\Debug\C-large-practice.in
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Demo\bin\Debug\C-small-practice.in
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Demo\bin\Debug\T9Lib.Demo.exe.config
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Demo\bin\Debug\T9Lib.Demo.exe
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Demo\bin\Debug\T9Lib.Demo.pdb
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Demo\bin\Debug\T9Common.dll
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Demo\bin\Debug\T9Lib.dll
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Demo\bin\Debug\T9Common.pdb
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Demo\bin\Debug\T9Lib.pdb
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Demo\obj\Debug\T9Lib.Demo.csprojResolveAssemblyReference.cache
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Demo\obj\Debug\T9Lib.Demo.csproj.CoreCompileInputs.cache
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Demo\obj\Debug\T9Lib.Demo.exe
+W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Demo\obj\Debug\T9Lib.Demo.pdb
