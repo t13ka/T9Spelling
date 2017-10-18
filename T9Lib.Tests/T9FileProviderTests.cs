@@ -9,7 +9,7 @@ namespace T9Lib.Tests
     using T9Common;
 
     [TestClass]
-    public class T9SamplesTests
+    public class T9FileProviderTests
     {
         private IFileProvider _fileProvider = new FileProvider();
 
@@ -42,6 +42,13 @@ namespace T9Lib.Tests
 
         [TestMethod]
         public void TestMethodEmptyFile()
+        {
+            Assert.ThrowsException<ArgumentNullException>(
+                () => { _fileProvider.ReadFileLines(new FileInfo("Samples\\C-small-practice_empty.in")); });
+        }
+
+        [TestMethod]
+        public void TestMethodWriteOutputFileTest()
         {
             Assert.ThrowsException<ArgumentNullException>(
                 () => { _fileProvider.ReadFileLines(new FileInfo("Samples\\C-small-practice_empty.in")); });

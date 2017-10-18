@@ -7,7 +7,7 @@ namespace T9Lib.Tests
     using T9Common;
 
     [TestClass]
-    public class T9ConvertionTests
+    public class T9ConverterTests
     {
         private readonly IT9Converter _t9Converter = new T9Converter();
 
