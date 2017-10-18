@@ -11,11 +11,34 @@
     {
         static void Main(string[] args)
         {
-            Handling("C-small-practice");
-            Handling("C-large-practice");
+            Console.WriteLine(
+                "Please, input the full filename(with path) of your file and press 'enter'. For example: \"c:\\C-small-practice.in\"");
+            Console.Write("Or enter 'exit' to quit.");
+            Console.WriteLine(Environment.NewLine);
+
+            string input;
+
+            do
+            {
+                input = Console.ReadLine();
+
+                if (string.IsNullOrEmpty(input))
+                {
+                    Console.WriteLine("Error! Please enter valid filename");
+                    continue;
+                }
+
+                if (input.ToLower().Trim() == "exit")
+                {
+                    return;
+                }
+            }
+            while (string.IsNullOrEmpty(input));
+
+            var outputFilePath = Handling(new FileInfo(input));
 
             Console.WriteLine("Done!");
-            Console.WriteLine("Please, check path:" + System.Environment.CurrentDirectory);
+            Console.WriteLine("Your output file is:" + outputFilePath);
             Console.ReadKey();
         }
 
@@ -24,14 +47,20 @@
             return inputLines.Select((inputLine, index) => $"Case #{index + 1}: {inputLine}").ToArray();
         }
 
-        private static void Handling(string fileName)
+        private static string Handling(FileInfo fileInfo)
         {
             var converter = new T9Converter();
             var fileProvider = new FileProvider();
-            var inputLines = fileProvider.ReadFileLines(new FileInfo(fileName + ".in"));
+            var inputLines = fileProvider.ReadFileLines(fileInfo);
             var outputLines = converter.ConvertLines(inputLines);
             var formatedLines = ConvertToOutputLInes(outputLines);
-            fileProvider.WriteOutputFile(fileName + ".out", formatedLines);
+
+            var path = fileInfo.DirectoryName;
+            var outputFileNameWithoutExtension = Path.GetFileNameWithoutExtension(fileInfo.FullName);
+            var fullPath = Path.Combine(path, outputFileNameWithoutExtension + ".out");
+            fileProvider.WriteOutputFile(fullPath, formatedLines);
+
+            return fullPath;
         }
     }
 }

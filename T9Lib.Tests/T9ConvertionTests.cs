@@ -9,7 +9,7 @@ namespace T9Lib.Tests
     [TestClass]
     public class T9ConvertionTests
     {
-        private IT9Converter _t9Converter = new T9Converter();
+        private readonly IT9Converter _t9Converter = new T9Converter();
 
         [TestMethod]
         public void TestMethodUnknowCharacter()
