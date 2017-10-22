@@ -2,8 +2,6 @@
 {
     using System;
     using System.IO;
-    using System.Linq;
-    using System.Net.Mime;
 
     using T9Lib;
 
@@ -35,32 +33,20 @@
             }
             while (string.IsNullOrEmpty(input));
 
-            var outputFilePath = Handling(new FileInfo(input));
-
-            Console.WriteLine("Done!");
-            Console.WriteLine("Your output file is:" + outputFilePath);
-            Console.ReadKey();
-        }
-
-        public static string[] ConvertToOutputLInes(string[] inputLines)
-        {
-            return inputLines.Select((inputLine, index) => $"Case #{index + 1}: {inputLine}").ToArray();
-        }
-
-        private static string Handling(FileInfo fileInfo)
-        {
-            var converter = new T9Converter();
-            var fileProvider = new FileProvider();
-            var inputLines = fileProvider.ReadFileLines(fileInfo);
-            var outputLines = converter.ConvertLines(inputLines);
-            var formatedLines = ConvertToOutputLInes(outputLines);
-
-            var path = fileInfo.DirectoryName;
-            var outputFileNameWithoutExtension = Path.GetFileNameWithoutExtension(fileInfo.FullName);
-            var fullPath = Path.Combine(path, outputFileNameWithoutExtension + ".out");
-            fileProvider.WriteOutputFile(fullPath, formatedLines);
-
-            return fullPath;
+            try
+            {
+                var fileProvider = new FileProvider(new T9Converter());
+                var outputFilePath = fileProvider.FileHandling(new FileInfo(input));
+                Console.WriteLine("Done! Your output file is:" + outputFilePath.FullName);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            finally
+            {
+                Console.ReadKey();
+            }
         }
     }
 }

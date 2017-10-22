@@ -1,9 +1,6 @@
 namespace T9Lib
 {
-    using System;
     using System.Collections.Generic;
-    using System.IO;
-    using System.Linq;
     using System.Text;
 
     using T9Common;
@@ -13,76 +10,66 @@ namespace T9Lib
     /// </summary>
     public class T9Converter : IT9Converter
     {
-        private readonly Tuple<char, short, short>[] T9Map;
+        private static Dictionary<char, string> T9Map;
 
         public T9Converter()
         {
-            T9Map = new[]
+            T9Map = new Dictionary<char, string>
                         {
-                            new Tuple<char, short, short>(' ', 0, 1), new Tuple<char, short, short>('a', 2, 2),
-                            new Tuple<char, short, short>('b', 22, 2), new Tuple<char, short, short>('c', 222, 2),
-                            new Tuple<char, short, short>('d', 3, 3), new Tuple<char, short, short>('e', 33, 3),
-                            new Tuple<char, short, short>('f', 333, 3), new Tuple<char, short, short>('g', 4, 4),
-                            new Tuple<char, short, short>('h', 44, 4), new Tuple<char, short, short>('i', 444, 4),
-                            new Tuple<char, short, short>('j', 5, 5), new Tuple<char, short, short>('k', 55, 5),
-                            new Tuple<char, short, short>('l', 555, 5), new Tuple<char, short, short>('m', 6, 6),
-                            new Tuple<char, short, short>('n', 66, 6), new Tuple<char, short, short>('o', 666, 6),
-                            new Tuple<char, short, short>('p', 7, 7), new Tuple<char, short, short>('q', 77, 7),
-                            new Tuple<char, short, short>('r', 777, 7), new Tuple<char, short, short>('s', 7777, 7),
-                            new Tuple<char, short, short>('t', 8, 8), new Tuple<char, short, short>('u', 88, 8),
-                            new Tuple<char, short, short>('v', 888, 8), new Tuple<char, short, short>('w', 9, 9),
-                            new Tuple<char, short, short>('x', 99, 9), new Tuple<char, short, short>('y', 999, 9),
-                            new Tuple<char, short, short>('z', 9999, 9)
+                            { ' ', "0,1" },
+                            { 'a', "2,2" },
+                            { 'b', "22,2" },
+                            { 'c', "222,2" },
+                            { 'd', "3,3" },
+                            { 'e', "33,3" },
+                            { 'f', "333,3" },
+                            { 'g', "4,4" },
+                            { 'h', "44,4" },
+                            { 'i', "444,4" },
+                            { 'j', "5,5" },
+                            { 'k', "55,5" },
+                            { 'l', "555,5" },
+                            { 'm', "6,6" },
+                            { 'n', "66,6" },
+                            { 'o', "666,6" },
+                            { 'p', "7,7" },
+                            { 'q', "77,7" },
+                            { 'r', "777,7" },
+                            { 's', "7777,7" },
+                            { 't', "8,8" },
+                            { 'u', "88,8" },
+                            { 'v', "888,8" },
+                            { 'w', "9,9" },
+                            { 'x', "99,9" },
+                            { 'y', "999,9" },
+                            { 'z', "9999,9" }
                         };
-        }
-
-        public string[] ConvertLines(string[] lines)
-        {
-            var list = new List<string>();
-            if (lines == null)
-            {
-                throw new NullReferenceException("lines can't be equal null");
-            }
-
-            foreach (var line in lines)
-            {
-                try
-                {
-                    var converted = ConvertString(line);
-                    list.Add(converted);
-                }
-                catch (ArgumentNullException e)
-                {
-                    Console.WriteLine(e);
-                    throw;
-                }
-            }
-
-            return list.ToArray();
         }
 
         public string ConvertString(string input)
         {
             var stringBuilder = new StringBuilder();
             var charArray = input.ToCharArray();
-            var lastButton = 0;
+            var lastButton = string.Empty;
             foreach (var currentChar in charArray)
             {
-                var firstOrDefault = T9Map.FirstOrDefault(t => t.Item1 == currentChar);
-                if (firstOrDefault != null)
+                string map;
+                if (T9Map.TryGetValue(currentChar, out map))
                 {
-                    if (lastButton == firstOrDefault.Item3)
+                    var strings = map.Split(',');
+                    var value = strings[0];
+                    var group = strings[1];
+                    if (lastButton == group)
                     {
                         stringBuilder.Append(" ");
                     }
 
-                    lastButton = firstOrDefault.Item3;
-
-                    stringBuilder.Append(firstOrDefault.Item2);
+                    lastButton = group;
+                    stringBuilder.Append(value);
                 }
                 else
                 {
-                    throw new ArgumentException("unknown character");
+                    // idle
                 }
             }
 

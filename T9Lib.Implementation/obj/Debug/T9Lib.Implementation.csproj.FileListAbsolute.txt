@@ -6,3 +6,11 @@ W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Implementation\obj\Debug\T9Lib.Implemen
 W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Implementation\obj\Debug\T9Lib.Implementation.csproj.CoreCompileInputs.cache
 W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Implementation\obj\Debug\T9Lib.dll
 W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Implementation\obj\Debug\T9Lib.pdb
+W:\Projects\t13ka\T9Spelling\T9Lib.Implementation\bin\Debug\T9Lib.dll
+W:\Projects\t13ka\T9Spelling\T9Lib.Implementation\bin\Debug\T9Lib.pdb
+W:\Projects\t13ka\T9Spelling\T9Lib.Implementation\bin\Debug\T9Common.dll
+W:\Projects\t13ka\T9Spelling\T9Lib.Implementation\bin\Debug\T9Common.pdb
+W:\Projects\t13ka\T9Spelling\T9Lib.Implementation\obj\Debug\T9Lib.Implementation.csprojResolveAssemblyReference.cache
+W:\Projects\t13ka\T9Spelling\T9Lib.Implementation\obj\Debug\T9Lib.Implementation.csproj.CoreCompileInputs.cache
+W:\Projects\t13ka\T9Spelling\T9Lib.Implementation\obj\Debug\T9Lib.dll
+W:\Projects\t13ka\T9Spelling\T9Lib.Implementation\obj\Debug\T9Lib.pdb

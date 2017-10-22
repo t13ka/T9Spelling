@@ -24,3 +24,16 @@ W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Demo\obj\Debug\T9Lib.Demo.csprojResolve
 W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Demo\obj\Debug\T9Lib.Demo.csproj.CoreCompileInputs.cache
 W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Demo\obj\Debug\T9Lib.Demo.exe
 W:\Projects\Repos\t13ka\T9Spelling\T9Lib.Demo\obj\Debug\T9Lib.Demo.pdb
+W:\Projects\t13ka\T9Spelling\T9Lib.Demo\bin\Debug\C-large-practice.in
+W:\Projects\t13ka\T9Spelling\T9Lib.Demo\bin\Debug\C-small-practice.in
+W:\Projects\t13ka\T9Spelling\T9Lib.Demo\bin\Debug\T9Lib.Demo.exe.config
+W:\Projects\t13ka\T9Spelling\T9Lib.Demo\bin\Debug\T9Lib.Demo.exe
+W:\Projects\t13ka\T9Spelling\T9Lib.Demo\bin\Debug\T9Lib.Demo.pdb
+W:\Projects\t13ka\T9Spelling\T9Lib.Demo\bin\Debug\T9Common.dll
+W:\Projects\t13ka\T9Spelling\T9Lib.Demo\bin\Debug\T9Lib.dll
+W:\Projects\t13ka\T9Spelling\T9Lib.Demo\bin\Debug\T9Common.pdb
+W:\Projects\t13ka\T9Spelling\T9Lib.Demo\bin\Debug\T9Lib.pdb
+W:\Projects\t13ka\T9Spelling\T9Lib.Demo\obj\Debug\T9Lib.Demo.csprojResolveAssemblyReference.cache
+W:\Projects\t13ka\T9Spelling\T9Lib.Demo\obj\Debug\T9Lib.Demo.csproj.CoreCompileInputs.cache
+W:\Projects\t13ka\T9Spelling\T9Lib.Demo\obj\Debug\T9Lib.Demo.exe
+W:\Projects\t13ka\T9Spelling\T9Lib.Demo\obj\Debug\T9Lib.Demo.pdb

@@ -45,7 +45,7 @@ namespace T9Lib.Tests
         [TestMethod]
         public void TestMethodResultsHandlingNullableInput()
         {
-            Assert.ThrowsException<NullReferenceException>(() => { _t9Converter.ConvertLines(null); });
+            Assert.ThrowsException<ArgumentNullException>(() => { _t9Converter.ConvertLines(null); });
         }
     }
 }

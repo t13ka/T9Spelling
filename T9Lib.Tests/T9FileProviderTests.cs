@@ -30,7 +30,7 @@ namespace T9Lib.Tests
         [TestMethod]
         public void TestMethodNullableFileInfo()
         {
-            Assert.ThrowsException<NullReferenceException>(() => { _fileProvider.ReadFileLines(null); });
+            Assert.ThrowsException<ArgumentNullException>(() => { _fileProvider.ReadFileLines(null); });
         }
 
         [TestMethod]

@@ -4,8 +4,6 @@
 
     public interface IFileProvider
     {
-        string[] ReadFileLines(FileInfo fileInfo);
-
-        void WriteOutputFile(string fileName, string[] lines);
+        FileInfo FileHandling(FileInfo fileInfo);
     }
 }
