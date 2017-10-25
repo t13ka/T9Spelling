@@ -8,4 +8,3 @@ W:\Projects\t13ka\T9Spelling\T9Lib.Common\bin\Debug\T9Common.pdb
 W:\Projects\t13ka\T9Spelling\T9Lib.Common\obj\Debug\T9Lib.Common.csproj.CoreCompileInputs.cache
 W:\Projects\t13ka\T9Spelling\T9Lib.Common\obj\Debug\T9Common.dll
 W:\Projects\t13ka\T9Spelling\T9Lib.Common\obj\Debug\T9Common.pdb
-W:\Projects\t13ka\T9Spelling\T9Lib.Common\obj\Debug\T9Lib.Common.csprojResolveAssemblyReference.cache

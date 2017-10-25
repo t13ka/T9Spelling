@@ -41,11 +41,5 @@ namespace T9Lib.Tests
             Assert.AreEqual("4433555 555666096667775553", t4);
             Assert.AreEqual("8899993332226622", t5);
         }
-
-        [TestMethod]
-        public void TestMethodResultsHandlingNullableInput()
-        {
-            Assert.ThrowsException<ArgumentNullException>(() => { _t9Converter.ConvertLines(null); });
-        }
     }
 }
