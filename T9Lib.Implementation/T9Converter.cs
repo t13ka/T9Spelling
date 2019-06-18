@@ -6,7 +6,7 @@ namespace T9Lib
     using T9Common;
 
     /// <summary>
-    ///     The T9 utils.
+    /// The t9 converter.
     /// </summary>
     public class T9Converter : IT9Converter
     {
@@ -48,24 +48,23 @@ namespace T9Lib
 
         public string ConvertString(string input)
         {
-            var stringBuilder = new StringBuilder();
+            var sb = new StringBuilder();
             var charArray = input.ToCharArray();
             var lastButton = string.Empty;
             foreach (var currentChar in charArray)
             {
-                string map;
-                if (T9Map.TryGetValue(currentChar, out map))
+                if (T9Map.TryGetValue(currentChar, out var map))
                 {
                     var strings = map.Split(',');
                     var value = strings[0];
                     var group = strings[1];
                     if (lastButton == group)
                     {
-                        stringBuilder.Append(" ");
+                        sb.Append(" ");
                     }
 
                     lastButton = group;
-                    stringBuilder.Append(value);
+                    sb.Append(value);
                 }
                 else
                 {
@@ -73,7 +72,7 @@ namespace T9Lib
                 }
             }
 
-            return stringBuilder.ToString();
+            return sb.ToString();
         }
     }
 }
