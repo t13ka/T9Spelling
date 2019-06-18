@@ -1,45 +1,30 @@
-﻿using System;
-
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-namespace T9Lib.Tests
+﻿namespace T9Lib.Tests
 {
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
     using T9Common;
 
     [TestClass]
     public class T9ConverterTests
     {
-        private readonly IT9Converter _t9Converter = new T9Converter();
+        private IT9Converter _t9Converter;
 
-        [TestMethod]
-        public void TestMethodUnknowCharacter()
+        [TestInitialize]
+        public void Setup()
         {
-            Assert.ThrowsException<ArgumentException>(() => { _t9Converter.ConvertString("4345"); });
+            _t9Converter = new T9Converter();
         }
 
         [TestMethod]
-        public void TestMethodNumbersWithCharacters()
+        [DataRow("0", " ")]
+        [DataRow("44 444", "hi")]
+        [DataRow("999337777", "yes")]
+        [DataRow("333666 6660 022 2777", "foo  bar")]
+        [DataRow("4433555 555666096667775553", "hello world")]
+        [DataRow("8899993332226622", "uzfcnb")]
+        public void ConvertString_ShouldReturn_ExpectedResult(string expected, string input)
         {
-            Assert.ThrowsException<ArgumentException>(() => { _t9Converter.ConvertString("A"); });
-        }
-
-        [TestMethod]
-        public void TestMethodIsCommon()
-        {
-            
-            var t0 = _t9Converter.ConvertString(" ");
-            var t1 = _t9Converter.ConvertString("hi");
-            var t2 = _t9Converter.ConvertString("yes");
-            var t3 = _t9Converter.ConvertString("foo  bar");
-            var t4 = _t9Converter.ConvertString("hello world");
-            var t5 = _t9Converter.ConvertString("uzfcnb");
-
-            Assert.AreEqual("0", t0);
-            Assert.AreEqual("44 444", t1);
-            Assert.AreEqual("999337777", t2);
-            Assert.AreEqual("333666 6660 022 2777", t3);
-            Assert.AreEqual("4433555 555666096667775553", t4);
-            Assert.AreEqual("8899993332226622", t5);
+            Assert.AreEqual(expected, _t9Converter.ConvertString(input));
         }
     }
 }
